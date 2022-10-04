@@ -16,7 +16,7 @@ services:
     networks:
       - default
   litespeed:
-    image: litespeedtech/openlitespeed:${OLS_VERSION}-${PHP_VERSION}
+    image: eurobertics/openlitespeed:${OLS_VERSION}-${PHP_VERSION}
     logging:
       driver: none
     env_file:
